@@ -1,0 +1,62 @@
+body{
+text-align:center;
+background:#5FA185;
+}
+
+h1{
+color:#1A3357;
+border-style:solid;
+border-color:white;
+border-whidth:2px;
+padding:10px;
+}
+
+a{
+color:#083A52;
+font-size:20px;
+border-style:solid;
+border-color:White;
+border-width:2px;
+padding:10px;
+border-radius:20px;
+}
+
+p{
+color:black;
+word-spacing:10px;
+font-variant:small-caps;
+font-size:20px;
+ font-family: "Momo Signature", cursive;
+}
+
+.more_about_cartoon{
+color:#000E14;
+font-size:18px;
+}
+
+#cartoon_name{
+text-decoration: unerline;
+font-size:20px;border-radius:12px; cursor:pointer;
+}
+#cartoon_name{
+text-decoration: unerline;
+font-size:20px;
+   font-family: "Paytone One", sans-serif;
+
+  border-radius:12px; cursor:pointer;
+  }
+.resevibe{
+  	/*codigo para la daptacion de pantalla es decir ressesive primero ponemos 
+	display:flex; esta parte de codigo dice pon todo la paginA Flexbox es decir todo se organize como bloque en filas y columnas,
+	flex-direction: column;este parte de codigo nos permite poner o establecer un direcion que se acomoden los elementos, este caso ponemos desde hacia arriba asia bajo como una columna.
+    justify-content: center; Este codigo nos sirve para poner todo en el centro y igual como jusrtify-content:center en este caso pone en centro los elementos y por ultimo  height: 100%; es cuanto espacio ocupe esto es decir de alto por lo tanto 100% significa toda la pagina web
+	
+	
+	*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
